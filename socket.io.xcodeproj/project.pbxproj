@@ -21,6 +21,34 @@
 		DF825823185076C4009D415F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF825805185076C4009D415F /* UIKit.framework */; };
 		DF82582B185076C5009D415F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF825829185076C5009D415F /* InfoPlist.strings */; };
 		DF82582D185076C5009D415F /* socket_ioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF82582C185076C5009D415F /* socket_ioTests.m */; };
+		DF82589918507BBF009D415F /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = DF82587318507BBF009D415F /* SBJsonParser.m */; };
+		DF82589A18507BBF009D415F /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = DF82587518507BBF009D415F /* SBJsonStreamParser.m */; };
+		DF82589B18507BBF009D415F /* SBJsonStreamParserAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = DF82587718507BBF009D415F /* SBJsonStreamParserAccumulator.m */; };
+		DF82589C18507BBF009D415F /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = DF82587918507BBF009D415F /* SBJsonStreamParserAdapter.m */; };
+		DF82589D18507BBF009D415F /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = DF82587B18507BBF009D415F /* SBJsonStreamParserState.m */; };
+		DF82589E18507BBF009D415F /* SBJsonStreamTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = DF82587D18507BBF009D415F /* SBJsonStreamTokeniser.m */; };
+		DF82589F18507BBF009D415F /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = DF82587F18507BBF009D415F /* SBJsonStreamWriter.m */; };
+		DF8258A018507BBF009D415F /* SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = DF82588118507BBF009D415F /* SBJsonStreamWriterAccumulator.m */; };
+		DF8258A118507BBF009D415F /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = DF82588318507BBF009D415F /* SBJsonStreamWriterState.m */; };
+		DF8258A218507BBF009D415F /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = DF82588518507BBF009D415F /* SBJsonWriter.m */; };
+		DF8258A318507BBF009D415F /* SocketIO.m in Sources */ = {isa = PBXBuildFile; fileRef = DF82588718507BBF009D415F /* SocketIO.m */; };
+		DF8258A418507BBF009D415F /* SocketIOJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = DF82588918507BBF009D415F /* SocketIOJSONSerialization.m */; };
+		DF8258A518507BBF009D415F /* SocketIOPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = DF82588B18507BBF009D415F /* SocketIOPacket.m */; };
+		DF8258A618507BBF009D415F /* SocketIOTransportWebsocket.m in Sources */ = {isa = PBXBuildFile; fileRef = DF82588E18507BBF009D415F /* SocketIOTransportWebsocket.m */; };
+		DF8258A718507BBF009D415F /* SocketIOTransportXHR.m in Sources */ = {isa = PBXBuildFile; fileRef = DF82589018507BBF009D415F /* SocketIOTransportXHR.m */; };
+		DF8258A818507BBF009D415F /* base64.c in Sources */ = {isa = PBXBuildFile; fileRef = DF82589218507BBF009D415F /* base64.c */; };
+		DF8258A918507BBF009D415F /* NSData+SRB64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = DF82589518507BBF009D415F /* NSData+SRB64Additions.m */; };
+		DF8258AA18507BBF009D415F /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = DF82589818507BBF009D415F /* SRWebSocket.m */; };
+		DF8258AC18507D1C009D415F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF8258AB18507D1C009D415F /* CFNetwork.framework */; };
+		DF8258AE18507D42009D415F /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DF8258AD18507D42009D415F /* libicucore.dylib */; };
+		DF8258B018507D51009D415F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF8258AF18507D51009D415F /* Security.framework */; };
+		DF8258B3185082F1009D415F /* SKChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8258B2185082F1009D415F /* SKChatViewController.m */; };
+		DF8258B618508AF0009D415F /* MTItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8258B518508AF0009D415F /* MTItem.m */; };
+		DF8258BC18508B4E009D415F /* MTTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8258BB18508B4E009D415F /* MTTableViewCell.m */; };
+		DF8258BF18508BA1009D415F /* NSDictionary+Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8258BE18508BA1009D415F /* NSDictionary+Extra.m */; };
+		DF8258C218508BFD009D415F /* SKChatTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8258C118508BFD009D415F /* SKChatTableViewCell.m */; };
+		DF8258C418508C12009D415F /* SKChatTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF8258C318508C12009D415F /* SKChatTableViewCell.xib */; };
+		DF8258CB18508DDF009D415F /* SKMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8258CA18508DDF009D415F /* SKMessage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +81,61 @@
 		DF825828185076C5009D415F /* socket.ioTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "socket.ioTests-Info.plist"; sourceTree = "<group>"; };
 		DF82582A185076C5009D415F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DF82582C185076C5009D415F /* socket_ioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = socket_ioTests.m; sourceTree = "<group>"; };
+		DF82587118507BBF009D415F /* SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson.h; sourceTree = "<group>"; };
+		DF82587218507BBF009D415F /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		DF82587318507BBF009D415F /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		DF82587418507BBF009D415F /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParser.h; sourceTree = "<group>"; };
+		DF82587518507BBF009D415F /* SBJsonStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParser.m; sourceTree = "<group>"; };
+		DF82587618507BBF009D415F /* SBJsonStreamParserAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAccumulator.h; sourceTree = "<group>"; };
+		DF82587718507BBF009D415F /* SBJsonStreamParserAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAccumulator.m; sourceTree = "<group>"; };
+		DF82587818507BBF009D415F /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		DF82587918507BBF009D415F /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
+		DF82587A18507BBF009D415F /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserState.h; sourceTree = "<group>"; };
+		DF82587B18507BBF009D415F /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserState.m; sourceTree = "<group>"; };
+		DF82587C18507BBF009D415F /* SBJsonStreamTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamTokeniser.h; sourceTree = "<group>"; };
+		DF82587D18507BBF009D415F /* SBJsonStreamTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamTokeniser.m; sourceTree = "<group>"; };
+		DF82587E18507BBF009D415F /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		DF82587F18507BBF009D415F /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		DF82588018507BBF009D415F /* SBJsonStreamWriterAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterAccumulator.h; sourceTree = "<group>"; };
+		DF82588118507BBF009D415F /* SBJsonStreamWriterAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterAccumulator.m; sourceTree = "<group>"; };
+		DF82588218507BBF009D415F /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		DF82588318507BBF009D415F /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterState.m; sourceTree = "<group>"; };
+		DF82588418507BBF009D415F /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		DF82588518507BBF009D415F /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		DF82588618507BBF009D415F /* SocketIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketIO.h; sourceTree = "<group>"; };
+		DF82588718507BBF009D415F /* SocketIO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocketIO.m; sourceTree = "<group>"; };
+		DF82588818507BBF009D415F /* SocketIOJSONSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketIOJSONSerialization.h; sourceTree = "<group>"; };
+		DF82588918507BBF009D415F /* SocketIOJSONSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocketIOJSONSerialization.m; sourceTree = "<group>"; };
+		DF82588A18507BBF009D415F /* SocketIOPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketIOPacket.h; sourceTree = "<group>"; };
+		DF82588B18507BBF009D415F /* SocketIOPacket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocketIOPacket.m; sourceTree = "<group>"; };
+		DF82588C18507BBF009D415F /* SocketIOTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketIOTransport.h; sourceTree = "<group>"; };
+		DF82588D18507BBF009D415F /* SocketIOTransportWebsocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketIOTransportWebsocket.h; sourceTree = "<group>"; };
+		DF82588E18507BBF009D415F /* SocketIOTransportWebsocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocketIOTransportWebsocket.m; sourceTree = "<group>"; };
+		DF82588F18507BBF009D415F /* SocketIOTransportXHR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketIOTransportXHR.h; sourceTree = "<group>"; };
+		DF82589018507BBF009D415F /* SocketIOTransportXHR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocketIOTransportXHR.m; sourceTree = "<group>"; };
+		DF82589218507BBF009D415F /* base64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = base64.c; sourceTree = "<group>"; };
+		DF82589318507BBF009D415F /* base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base64.h; sourceTree = "<group>"; };
+		DF82589418507BBF009D415F /* NSData+SRB64Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+SRB64Additions.h"; sourceTree = "<group>"; };
+		DF82589518507BBF009D415F /* NSData+SRB64Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+SRB64Additions.m"; sourceTree = "<group>"; };
+		DF82589618507BBF009D415F /* SocketRocket-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-Prefix.pch"; sourceTree = "<group>"; };
+		DF82589718507BBF009D415F /* SRWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRWebSocket.h; sourceTree = "<group>"; };
+		DF82589818507BBF009D415F /* SRWebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRWebSocket.m; sourceTree = "<group>"; };
+		DF8258AB18507D1C009D415F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		DF8258AD18507D42009D415F /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		DF8258AF18507D51009D415F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		DF8258B1185082F1009D415F /* SKChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKChatViewController.h; sourceTree = "<group>"; };
+		DF8258B2185082F1009D415F /* SKChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKChatViewController.m; sourceTree = "<group>"; };
+		DF8258B418508AF0009D415F /* MTItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTItem.h; sourceTree = "<group>"; };
+		DF8258B518508AF0009D415F /* MTItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTItem.m; sourceTree = "<group>"; };
+		DF8258BA18508B4E009D415F /* MTTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTTableViewCell.h; sourceTree = "<group>"; };
+		DF8258BB18508B4E009D415F /* MTTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTTableViewCell.m; sourceTree = "<group>"; };
+		DF8258BD18508BA0009D415F /* NSDictionary+Extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Extra.h"; sourceTree = "<group>"; };
+		DF8258BE18508BA1009D415F /* NSDictionary+Extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Extra.m"; sourceTree = "<group>"; };
+		DF8258C018508BFD009D415F /* SKChatTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKChatTableViewCell.h; sourceTree = "<group>"; };
+		DF8258C118508BFD009D415F /* SKChatTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKChatTableViewCell.m; sourceTree = "<group>"; };
+		DF8258C318508C12009D415F /* SKChatTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SKChatTableViewCell.xib; sourceTree = "<group>"; };
+		DF8258C918508DDF009D415F /* SKMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKMessage.h; sourceTree = "<group>"; };
+		DF8258CA18508DDF009D415F /* SKMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKMessage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +143,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF825802185076C4009D415F /* Foundation.framework in Frameworks */,
+				DF8258B018507D51009D415F /* Security.framework in Frameworks */,
+				DF8258AE18507D42009D415F /* libicucore.dylib in Frameworks */,
+				DF8258AC18507D1C009D415F /* CFNetwork.framework in Frameworks */,
 				DF825804185076C4009D415F /* CoreGraphics.framework in Frameworks */,
 				DF825806185076C4009D415F /* UIKit.framework in Frameworks */,
-				DF825802185076C4009D415F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +168,7 @@
 		DF8257F5185076C4009D415F = {
 			isa = PBXGroup;
 			children = (
+				DF82583618507774009D415F /* library */,
 				DF825807185076C4009D415F /* socket.io */,
 				DF825826185076C5009D415F /* socket.ioTests */,
 				DF825800185076C4009D415F /* Frameworks */,
@@ -101,6 +188,9 @@
 		DF825800185076C4009D415F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DF8258AF18507D51009D415F /* Security.framework */,
+				DF8258AD18507D42009D415F /* libicucore.dylib */,
+				DF8258AB18507D1C009D415F /* CFNetwork.framework */,
 				DF825801185076C4009D415F /* Foundation.framework */,
 				DF825803185076C4009D415F /* CoreGraphics.framework */,
 				DF825805185076C4009D415F /* UIKit.framework */,
@@ -112,13 +202,26 @@
 		DF825807185076C4009D415F /* socket.io */ = {
 			isa = PBXGroup;
 			children = (
+				DF8258BD18508BA0009D415F /* NSDictionary+Extra.h */,
+				DF8258BE18508BA1009D415F /* NSDictionary+Extra.m */,
+				DF8258BA18508B4E009D415F /* MTTableViewCell.h */,
+				DF8258BB18508B4E009D415F /* MTTableViewCell.m */,
+				DF8258B418508AF0009D415F /* MTItem.h */,
+				DF8258B518508AF0009D415F /* MTItem.m */,
 				DF825810185076C4009D415F /* SKAppDelegate.h */,
 				DF825811185076C4009D415F /* SKAppDelegate.m */,
 				DF825813185076C4009D415F /* Main.storyboard */,
 				DF825816185076C4009D415F /* SKViewController.h */,
 				DF825817185076C4009D415F /* SKViewController.m */,
+				DF8258B1185082F1009D415F /* SKChatViewController.h */,
+				DF8258B2185082F1009D415F /* SKChatViewController.m */,
+				DF8258C018508BFD009D415F /* SKChatTableViewCell.h */,
+				DF8258C118508BFD009D415F /* SKChatTableViewCell.m */,
+				DF8258C318508C12009D415F /* SKChatTableViewCell.xib */,
 				DF825819185076C4009D415F /* Images.xcassets */,
 				DF825808185076C4009D415F /* Supporting Files */,
+				DF8258C918508DDF009D415F /* SKMessage.h */,
+				DF8258CA18508DDF009D415F /* SKMessage.m */,
 			);
 			path = socket.io;
 			sourceTree = "<group>";
@@ -150,6 +253,76 @@
 				DF825829185076C5009D415F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF82583618507774009D415F /* library */ = {
+			isa = PBXGroup;
+			children = (
+				DF82586F18507BBF009D415F /* socketio.objc */,
+			);
+			path = library;
+			sourceTree = "<group>";
+		};
+		DF82586F18507BBF009D415F /* socketio.objc */ = {
+			isa = PBXGroup;
+			children = (
+				DF82589118507BBF009D415F /* SocketRocket */,
+				DF82587018507BBF009D415F /* JSON-Framework */,
+				DF82588618507BBF009D415F /* SocketIO.h */,
+				DF82588718507BBF009D415F /* SocketIO.m */,
+				DF82588818507BBF009D415F /* SocketIOJSONSerialization.h */,
+				DF82588918507BBF009D415F /* SocketIOJSONSerialization.m */,
+				DF82588A18507BBF009D415F /* SocketIOPacket.h */,
+				DF82588B18507BBF009D415F /* SocketIOPacket.m */,
+				DF82588C18507BBF009D415F /* SocketIOTransport.h */,
+				DF82588D18507BBF009D415F /* SocketIOTransportWebsocket.h */,
+				DF82588E18507BBF009D415F /* SocketIOTransportWebsocket.m */,
+				DF82588F18507BBF009D415F /* SocketIOTransportXHR.h */,
+				DF82589018507BBF009D415F /* SocketIOTransportXHR.m */,
+			);
+			path = socketio.objc;
+			sourceTree = "<group>";
+		};
+		DF82587018507BBF009D415F /* JSON-Framework */ = {
+			isa = PBXGroup;
+			children = (
+				DF82587118507BBF009D415F /* SBJson.h */,
+				DF82587218507BBF009D415F /* SBJsonParser.h */,
+				DF82587318507BBF009D415F /* SBJsonParser.m */,
+				DF82587418507BBF009D415F /* SBJsonStreamParser.h */,
+				DF82587518507BBF009D415F /* SBJsonStreamParser.m */,
+				DF82587618507BBF009D415F /* SBJsonStreamParserAccumulator.h */,
+				DF82587718507BBF009D415F /* SBJsonStreamParserAccumulator.m */,
+				DF82587818507BBF009D415F /* SBJsonStreamParserAdapter.h */,
+				DF82587918507BBF009D415F /* SBJsonStreamParserAdapter.m */,
+				DF82587A18507BBF009D415F /* SBJsonStreamParserState.h */,
+				DF82587B18507BBF009D415F /* SBJsonStreamParserState.m */,
+				DF82587C18507BBF009D415F /* SBJsonStreamTokeniser.h */,
+				DF82587D18507BBF009D415F /* SBJsonStreamTokeniser.m */,
+				DF82587E18507BBF009D415F /* SBJsonStreamWriter.h */,
+				DF82587F18507BBF009D415F /* SBJsonStreamWriter.m */,
+				DF82588018507BBF009D415F /* SBJsonStreamWriterAccumulator.h */,
+				DF82588118507BBF009D415F /* SBJsonStreamWriterAccumulator.m */,
+				DF82588218507BBF009D415F /* SBJsonStreamWriterState.h */,
+				DF82588318507BBF009D415F /* SBJsonStreamWriterState.m */,
+				DF82588418507BBF009D415F /* SBJsonWriter.h */,
+				DF82588518507BBF009D415F /* SBJsonWriter.m */,
+			);
+			path = "JSON-Framework";
+			sourceTree = "<group>";
+		};
+		DF82589118507BBF009D415F /* SocketRocket */ = {
+			isa = PBXGroup;
+			children = (
+				DF82589218507BBF009D415F /* base64.c */,
+				DF82589318507BBF009D415F /* base64.h */,
+				DF82589418507BBF009D415F /* NSData+SRB64Additions.h */,
+				DF82589518507BBF009D415F /* NSData+SRB64Additions.m */,
+				DF82589618507BBF009D415F /* SocketRocket-Prefix.pch */,
+				DF82589718507BBF009D415F /* SRWebSocket.h */,
+				DF82589818507BBF009D415F /* SRWebSocket.m */,
+			);
+			path = SocketRocket;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +403,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF82581A185076C4009D415F /* Images.xcassets in Resources */,
+				DF8258C418508C12009D415F /* SKChatTableViewCell.xib in Resources */,
 				DF82580C185076C4009D415F /* InfoPlist.strings in Resources */,
 				DF825815185076C4009D415F /* Main.storyboard in Resources */,
 			);
@@ -250,9 +424,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF8258A918507BBF009D415F /* NSData+SRB64Additions.m in Sources */,
+				DF8258BF18508BA1009D415F /* NSDictionary+Extra.m in Sources */,
 				DF825812185076C4009D415F /* SKAppDelegate.m in Sources */,
+				DF8258A218507BBF009D415F /* SBJsonWriter.m in Sources */,
+				DF8258A418507BBF009D415F /* SocketIOJSONSerialization.m in Sources */,
+				DF82589C18507BBF009D415F /* SBJsonStreamParserAdapter.m in Sources */,
+				DF8258B618508AF0009D415F /* MTItem.m in Sources */,
+				DF8258A518507BBF009D415F /* SocketIOPacket.m in Sources */,
+				DF82589918507BBF009D415F /* SBJsonParser.m in Sources */,
+				DF8258CB18508DDF009D415F /* SKMessage.m in Sources */,
+				DF8258BC18508B4E009D415F /* MTTableViewCell.m in Sources */,
+				DF8258A818507BBF009D415F /* base64.c in Sources */,
+				DF8258A318507BBF009D415F /* SocketIO.m in Sources */,
+				DF82589F18507BBF009D415F /* SBJsonStreamWriter.m in Sources */,
+				DF8258C218508BFD009D415F /* SKChatTableViewCell.m in Sources */,
+				DF82589E18507BBF009D415F /* SBJsonStreamTokeniser.m in Sources */,
+				DF82589B18507BBF009D415F /* SBJsonStreamParserAccumulator.m in Sources */,
 				DF825818185076C4009D415F /* SKViewController.m in Sources */,
+				DF82589D18507BBF009D415F /* SBJsonStreamParserState.m in Sources */,
+				DF8258A018507BBF009D415F /* SBJsonStreamWriterAccumulator.m in Sources */,
+				DF8258A118507BBF009D415F /* SBJsonStreamWriterState.m in Sources */,
+				DF8258B3185082F1009D415F /* SKChatViewController.m in Sources */,
 				DF82580E185076C4009D415F /* main.m in Sources */,
+				DF82589A18507BBF009D415F /* SBJsonStreamParser.m in Sources */,
+				DF8258AA18507BBF009D415F /* SRWebSocket.m in Sources */,
+				DF8258A618507BBF009D415F /* SocketIOTransportWebsocket.m in Sources */,
+				DF8258A718507BBF009D415F /* SocketIOTransportXHR.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +580,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "socket.io/socket.io-Prefix.pch";
 				INFOPLIST_FILE = "socket.io/socket.io-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -395,6 +595,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "socket.io/socket.io-Prefix.pch";
 				INFOPLIST_FILE = "socket.io/socket.io-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -461,6 +663,7 @@
 				DF825832185076C5009D415F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF825833185076C5009D415F /* Build configuration list for PBXNativeTarget "socket.ioTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +672,7 @@
 				DF825835185076C5009D415F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SocketIO.h"
 
 @interface SKViewController : UIViewController
-
+@property (nonatomic) SocketIO *socket;
+@property (weak, nonatomic) IBOutlet UITextField *txtName;
+@property (weak, nonatomic) IBOutlet UILabel *lblStatus;
 @end
